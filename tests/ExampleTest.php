@@ -1,6 +1,6 @@
 <?php
 
-namespace Yajra\CMS\Themes\Test;
+namespace Yajra\CMS\Composer\Test;
 
 class ExampleTest extends \PHPUnit_Framework_TestCase
 {

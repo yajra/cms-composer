@@ -10,7 +10,18 @@
             "Yajra\\CMS\\Composer": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Yajra\\CMS\\Composer\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
     "extra": {
-        "class": "Yajra\\CMS\\Composer\\Plugin"
+        "class": "Yajra\\CMS\\Composer\\Plugin",
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
     }
 }
