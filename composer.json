@@ -1,0 +1,16 @@
+{
+    "name": "yajra/cms-composer",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yajra\\CMS\\Composer": "src/"
+        }
+    },
+    "extra": {
+        "class": "Yajra\\CMS\\Composer\\Plugin"
+    }
+}
