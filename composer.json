@@ -7,7 +7,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Yajra\\CMS\\Composer": "src/"
+            "Yajra\\CMS\\Composer\\": "src/"
         }
     },
     "autoload-dev": {
